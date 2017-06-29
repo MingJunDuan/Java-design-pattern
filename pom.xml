@@ -8,6 +8,7 @@
     <modules>
         <module>abstract-document-pattern</module>
         <module>abstract-factory-pattern</module>
+        <module>adapter-pattern</module>
     </modules>
     <packaging>pom</packaging>
 
