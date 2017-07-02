@@ -16,6 +16,7 @@
         <module>converter-pattern</module>
         <module>dao-pattern</module>
         <module>data-bus-pattern</module>
+        <module>data-mapper-pattern</module>
     </modules>
     <packaging>pom</packaging>
 
