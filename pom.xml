@@ -9,6 +9,9 @@
         <module>abstract-document-pattern</module>
         <module>abstract-factory-pattern</module>
         <module>adapter-pattern</module>
+        <module>async-method-invocation</module>
+        <module>balking-pattern</module>
+        <module>business-delegate-pattern</module>
     </modules>
     <packaging>pom</packaging>
 
