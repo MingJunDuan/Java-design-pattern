@@ -1,7 +1,7 @@
-package com.mjduan.project.data;
+package com.mjduan.project.src.data;
 
-import com.mjduan.project.AbstractDataType;
-import com.mjduan.project.IDataType;
+import com.mjduan.project.src.AbstractDataType;
+import com.mjduan.project.src.IDataType;
 
 /**
  * Hans 2017-07-02 21:04

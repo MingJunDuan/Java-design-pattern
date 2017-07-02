@@ -1,12 +1,12 @@
-package com.mjduan.project.members;
+package com.mjduan.project.src.members;
 
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.mjduan.project.IDataType;
-import com.mjduan.project.IMember;
-import com.mjduan.project.data.MessageData;
+import com.mjduan.project.src.IDataType;
+import com.mjduan.project.src.IMember;
+import com.mjduan.project.src.data.MessageData;
 
 /**
  * Hans 2017-07-02 21:09

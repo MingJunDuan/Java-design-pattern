@@ -1,12 +1,13 @@
-package com.mjduan.project;
+package com.mjduan.project.test;
 
 import java.time.LocalDateTime;
 
-import com.mjduan.project.data.MessageData;
-import com.mjduan.project.data.StartingData;
-import com.mjduan.project.data.StoppingData;
-import com.mjduan.project.members.MessageCollectorMember;
-import com.mjduan.project.members.StatusMember;
+import com.mjduan.project.src.DataBus;
+import com.mjduan.project.src.data.MessageData;
+import com.mjduan.project.src.data.StartingData;
+import com.mjduan.project.src.data.StoppingData;
+import com.mjduan.project.src.members.MessageCollectorMember;
+import com.mjduan.project.src.members.StatusMember;
 
 /**
  * Hans 2017-07-02 21:22
@@ -23,12 +24,12 @@ public class App {
 
         dataBus.subscribe(foo);
         dataBus.publish(StartingData.of(LocalDateTime.now()));
-        dataBus.publish(MessageData.of("ONly foo should see this"));
+        dataBus.publish(MessageData.of("Only foo should see this"));
+
         dataBus.subscribe(bar);
-
         dataBus.publish(MessageData.of("Foo and Bar should see the this"));
-        dataBus.unSubscribe(foo);
 
+        dataBus.unSubscribe(foo);
         dataBus.publish(MessageData.of("Only bar should see this"));
         dataBus.publish(StoppingData.of(LocalDateTime.now()));
     }

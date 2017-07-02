@@ -1,4 +1,4 @@
-package com.mjduan.project;
+package com.mjduan.project.src;
 
 import java.util.HashSet;
 import java.util.Set;
