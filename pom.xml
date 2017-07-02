@@ -12,6 +12,7 @@
         <module>async-method-invocation</module>
         <module>balking-pattern</module>
         <module>business-delegate-pattern</module>
+        <module>callback-pattern</module>
     </modules>
     <packaging>pom</packaging>
 
