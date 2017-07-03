@@ -14,9 +14,10 @@
         <module>business-delegate-pattern</module>
         <module>callback-pattern</module>
         <module>converter-pattern</module>
-        <module>dao-pattern</module>
         <module>data-bus-pattern</module>
         <module>data-mapper-pattern</module>
+        <module>dependency-injection</module>
+        <module>event-asynchronous</module>
     </modules>
     <packaging>pom</packaging>
 
