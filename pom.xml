@@ -19,6 +19,8 @@
         <module>dependency-injection</module>
         <module>event-asynchronous</module>
         <module>event-driven-architecture-pattern</module>
+        <module>factory-kit</module>
+        <module>factory-method</module>
     </modules>
     <packaging>pom</packaging>
 
