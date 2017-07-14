@@ -23,6 +23,7 @@
         <module>factory-method</module>
         <module>guarded-suspenion</module>
         <module>lazy-loading</module>
+        <module>Poison-pill</module>
     </modules>
     <packaging>pom</packaging>
 
