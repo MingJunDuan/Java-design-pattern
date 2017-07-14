@@ -21,6 +21,8 @@
         <module>event-driven-architecture-pattern</module>
         <module>factory-kit</module>
         <module>factory-method</module>
+        <module>guarded-suspenion</module>
+        <module>lazy-loading</module>
     </modules>
     <packaging>pom</packaging>
 
