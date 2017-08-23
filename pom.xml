@@ -16,7 +16,6 @@
         <module>converter-pattern</module>
         <module>data-bus-pattern</module>
         <module>data-mapper-pattern</module>
-        <module>dependency-injection</module>
         <module>event-asynchronous</module>
         <module>event-driven-architecture-pattern</module>
         <module>factory-kit</module>
@@ -24,6 +23,7 @@
         <module>guarded-suspenion</module>
         <module>lazy-loading</module>
         <module>Poison-pill</module>
+        <module>dynamic-proxy</module>
     </modules>
     <packaging>pom</packaging>
 
