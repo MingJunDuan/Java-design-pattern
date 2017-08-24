@@ -27,13 +27,12 @@ public class Connector {
         inputStream = socket.getInputStream();
         outputStream = socket.getOutputStream();
 
-        objIn = new ObjectInputStream(inputStream);
         objOut = new ObjectOutputStream(outputStream);
+        objIn = new ObjectInputStream(inputStream);
     }
 
     public void sendRequest(Call call) throws IOException, ClassNotFoundException {
         objOut.writeObject(call);
-        receive();
     }
 
     public Call receive() throws IOException, ClassNotFoundException {
@@ -43,11 +42,11 @@ public class Connector {
 
     public void close() {
         try {
-            objOut.close();
-            outputStream.close();
-            objIn.close();
-            inputStream.close();
             socket.close();
+            objIn.close();
+            objOut.close();
+            inputStream.close();
+            outputStream.close();
         } catch (IOException e) {
             e.printStackTrace();
         }

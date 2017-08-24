@@ -46,11 +46,10 @@ public class ServerService {
             Call callResult = getCallResult(call);
             objectOutputStream.writeObject(callResult);
 
-            inputStream.close();
-            objectInputStream.close();
-
-            outputStream.close();
             objectOutputStream.close();
+            objectInputStream.close();
+            inputStream.close();
+            outputStream.close();
 
             socket.close();
         }

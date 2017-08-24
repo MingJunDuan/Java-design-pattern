@@ -11,7 +11,6 @@ import com.mjduan.project.example2.server.ServerService;
 public class LocalClient {
     public static final String HOST = "127.0.0.1";
 
-    //There is some problem exists
     public static void main(String[] args) {
         ServiceInvocationHandler serviceInvocationHandler = new ServiceInvocationHandler(IService.class, HOST, ServerService.PORT);
         IService service = (IService) RemoteServiceProxyFactory.getRemoteServiceProxy(serviceInvocationHandler);

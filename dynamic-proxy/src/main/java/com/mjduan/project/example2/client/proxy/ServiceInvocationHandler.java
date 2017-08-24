@@ -25,9 +25,9 @@ public class ServiceInvocationHandler implements InvocationHandler {
         Connector connector = new Connector();
         connector.connect(host,port);
         connector.sendRequest(call);
+        call = connector.receive();
         connector.close();
-        Object result = call.getResult();
-        return result;
+        return call.getResult();
     }
 
 
