@@ -6,6 +6,8 @@ import com.mjduan.project.example2.client.proxy.ServiceInvocationHandler;
 import com.mjduan.project.example2.server.ServerService;
 
 /**
+ * Reference:http://www.cnblogs.com/clonen/p/6735011.html
+ *
  * Hans 2017-08-24 21:45
  */
 public class LocalClient {
