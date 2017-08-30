@@ -24,6 +24,7 @@
         <module>lazy-loading</module>
         <module>Poison-pill</module>
         <module>dynamic-proxy</module>
+        <module>mediator</module>
     </modules>
     <packaging>pom</packaging>
 
